@@ -16,8 +16,10 @@ class CalcTest {
 
     @Test
     void testAdd(){
-        assertEquals(4,myCalc.add(2, 2));
-
+        assertEquals(4, myCalc.add(2, 2));
+    }
+    void testSubtract(){
+        assertEquals(2, myCalc.subtract(4, 2));
     }
     @AfterEach
     void tearDown() {
